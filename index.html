@@ -1,83 +1,126 @@
-<h1 style="text-align:center;"><strong>INTRO to Turtle Graphics!</strong></h1>
-<a href="https://elementopsprogramming.files.wordpress.com/2015/10/screen-shot-2015-10-03-at-11-57-31-am.png"><img class="size-medium wp-image-103 aligncenter" src="https://elementopsprogramming.files.wordpress.com/2015/10/screen-shot-2015-10-03-at-11-57-31-am.png?w=300" alt="Screen Shot 2015-10-03 at 11.57.31 AM" width="300" height="255" /></a>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Hello! What did you think about last week's lab? We understand that we didn't explain some of the very important things well, so this week, we will make sure that all the directions are clear and make sense. </span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">To start off LAB2, we will actually do some drawing for the first time with the tool "Turtle Graphics". First, download "hexagon_student.py" from <a href="https://www.dropbox.com/sh/tng1xln1kmz97j1/AAAqXLTDoFIJ84_NCIkNfJ_Ra?dl=1">here</a>.</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">After doing so, a zip file will appear in your downloads folder in the lower right corner. Clicking the zip file will unzip the file and produce a file called "hexagon_student.py". Now, simply drag this file to Desktop(where the desktop picture of your animal is).</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Now that the file is on your Desktop, open Sublime on the dock (where the icons are on the bottom of your screen) and go to FILE(on the very top) and OPEN and find DESKTOP on the left side of the pop-up window. Click on the "hexagon_student.py" file and OPEN.</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Locate the instruction, "YOUR CODE STARTS HERE". Note that you only have to edit the lines 15, 16, and 17 of this file. </span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Think about how to tell the computer how to draw a hexagon. How many sides does it have? What are some of the angles that the sides make with each other? </span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Some technicalities: "t" stands for "turtle". Calling "t.forward()" will make the turtle go forward by however much you specify within the parenthesis with a number. Calling "t.right()" will make turtle turn right by however many degrees you specify within the parenthesis with a number.</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Look at line 10, "while SIDE is less than or equal to 6". This declaration starts something called a loop. A loop repeats all the actions in its "suite"(lines 11-19 with an indent) as long as the condition(SIDE is less than or equal to 6) is met. Note how on line 8, SIDE starts at 1. This means that if we add 1 to SIDE every time we execute the suite, we will have gone through the loop total 6 times by the end.  </span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Therefore, the suite will look some thing like this. Move the turtle forward by LENGTH. Turn the turtle by a certain number of degrees. And finally set side to one more than what it used to be. The rest will get taken by the loop, repeating the same process 6 times to draw a hexagon.</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">After making some changes, test your code by running the command "python3 hexagon_student.py" on the Terminal. Ask for help from one of us for this step. </span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Did a black window pop up and did a "turtle" start drawing hexagons for you? (give it a few seconds for the colors to get darker) Awesome! Just enjoy for a few seconds the beauty of drawing with a computer. If not, did you get a bunch of error messages? Then, you should go back and try to fix your code. Don't hesitate to ask for help! </span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">The rest of the lab will be trying to finish last week's lab. Make sure your lab01.py is on the Desktop and that you open it using Sublime. Again, ask us for help when using Terminal. </span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">NOTE: ALWAYS make sure you save all your work on both Sublime and TextEdit. You can do this by doing "COMMAND + S"(press the command button next to the space bar and the letter s at the same time). Or by clicking FILE on the menu bar and SAVE. I believe there were a couple who forgot to save their work last week and some of that work is forever lost...It's ok. Call us for help! </span></p>
-<p class="Body"><b><span style="font-size:20pt;font-family:'Andale Mono';">Division</span></b></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Before getting into actual logic and tools, let’s make sure some of our math is taken care of.</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Basically, the first division does what it’s supposed to. The second one however gets rid of the decimals.</span></p>
-<p class="Body"><a href="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-5-57-33-pm.png"><img class="size-medium wp-image-15 aligncenter" src="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-5-57-33-pm.png?w=300" alt="Screen Shot 2015-09-26 at 5.57.33 PM" width="300" height="233" /></a></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">You can test this out yourself by simply running this command on your terminal:</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Command 1:</span></p>
-<p class="Body"><a href="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-6-29-01-pm.png"><img class="wp-image-17 aligncenter" src="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-6-29-01-pm.png?w=300" alt="Screen Shot 2015-09-26 at 6.29.01 PM" width="600" height="46" /></a></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Simply type in the math expression above, next to the three arrows that will pop up and press enter.</span></p>
-<p class="Body"><span style="font-size:20pt;font-family:'Andale Mono';">Boolean Operators</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Boolean operators that we will need in this course are “and”, “or”, and “not”.</span></p>
-<p class="Body"><a href="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-6-37-50-pm.png"><img class="size-medium wp-image-19 aligncenter" src="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-6-37-50-pm.png?w=300" alt="Screen Shot 2015-09-26 at 6.37.50 PM" width="300" height="237" /></a></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">And: It evaluates to “True” if the left side AND the right side are “True” in value. If at least one of them is “False”, the whole thing is “False”.</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Or: It evaluates to “True” even if one of them is “True”. Only if both arguments are “False”, it evaluates to “False”.</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Not: It just makes “True” “False” and makes “False” “True”.</span></p>
-<p class="Body"><b><span style="font-size:12pt;font-family:'Andale Mono';">The built-in comparison operations are &gt;, &lt;, &gt;=, &lt;=, ==, and !=. </span></b></p>
-<p class="Body"><b><span style="font-size:12pt;font-family:'Andale Mono';">&gt;: "greater than"</span></b></p>
-<p class="Body"><b><span style="font-size:12pt;font-family:'Andale Mono';">&gt;=: "greater than or equal to"</span></b></p>
-<p class="Body"><b><span style="font-size:12pt;font-family:'Andale Mono';">==: "is equal to"</span></b></p>
-<p class="Body"><b><span style="font-size:12pt;font-family:'Andale Mono';">!=: "is not equal to"</span></b></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">NOTE: You can also try this yourself with Command 1.</span></p>
-<p class="Body">-------------------------------</p>
-<p class="Body"><strong><span style="font-size:12pt;font-family:'Andale Mono';">Question 1: Logic</span></strong></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">a) &gt;&gt;&gt; 22 / 7</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">b) &gt;&gt;&gt; 22 // 7</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">c) &gt;&gt;&gt; 22 / 7 // 1.2</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">d) &gt;&gt;&gt; False and True and 1 / 0 and hello and eric and jin and amy</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">e) &gt;&gt;&gt; True and True and 1 / 0 and hello and eric and jin and amy</span></p>
-<p class="Body">-------------------------------</p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Now is the time to create a text document named “LAB1_[YOURNAME]” and save it on the Desktop, using TextEdit. You can look for the app on the bottom dock. Make sure the file is saved in the right directory(Computer Science word for “folder”), so that we can check it later. And you will get graded for it. Just kidding. Maybe.</span></p>
-<p class="Body">-------------------------------</p>
-<p class="Body"><strong><span style="font-size:12pt;font-family:'Andale Mono';">Question 2: Fix the bug!</span></strong></p>
-<a href="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-7-51-38-pm.png"><img class=" wp-image-33 aligncenter" src="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-7-51-38-pm.png?w=300" alt="Screen Shot 2015-09-26 at 7.51.38 PM" width="594" height="232" /></a>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Download the starter code for this lab1 <a href="https://www.dropbox.com/sh/tng1xln1kmz97j1/AAAqXLTDoFIJ84_NCIkNfJ_Ra?dl=1">here</a>. </span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">This code is not working! Let's fix it! </span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Here is the next command to run and test your code.</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Command 2:</span></p>
-<a href="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-8-13-23-pm.png"><img class="wp-image-39 aligncenter" src="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-8-13-23-pm.png?w=300" alt="Screen Shot 2015-09-26 at 8.13.23 PM" width="531" height="39" /></a>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">For today, it would be: [TYPO: IT SHOULD BE lab01.py not lab1.py. This is because the file is named "lab01.py".]</span></p>
-<p class="Body"><img class="wp-image-45 aligncenter" src="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-8-20-01-pm.png?w=300" alt="Screen Shot 2015-09-26 at 8.20.01 PM" width="545" height="40" /></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">After running Command 2, if you use the function within this interactive mode with the command "both_positive(1, 2)", it will use your code and return a value.</span></p>
-<a href="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-8-35-31-pm.png"><img class=" wp-image-48 aligncenter" src="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-8-35-31-pm.png?w=300" alt="Screen Shot 2015-09-26 at 8.35.31 PM" width="344" height="179" /></a>
-<p class="Body"><b><span style="font-size:20pt;font-family:'Andale Mono';">Conditional Statements</span></b></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">A conditional statement in Python consists of a series of headers and suites: a required if clause, an optional sequence of elif clauses, and finally an optional else clause:</span></p>
-if "expression":
-...... "suite"
-elif "expression":
-...... "suite"
-else:
-...... "suite"
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">The content of a "suite" must be indented. </span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">If the expression is "True", the code enters the suite for that clause. Once the suite finishes, the program skips the rest of the clauses. If expression is "False", it moves onto the next cluse. </span></p>
-<a href="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-10-21-07-pm.png"><img class="wp-image-65 aligncenter" src="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-10-21-07-pm.png?w=300" alt="Screen Shot 2015-09-26 at 10.21.07 PM" width="530" height="306" /></a>
-<p class="Body">-------------------------------</p>
-<p class="Body"><strong><span style="font-size:12pt;font-family:'Andale Mono';">Question 3: Eric or Jin?</span></strong></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">a) What are two sets of values of x and y that would cause the function to return "Eric"?</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">b) What are two sets of values of x and y that would cause the function to return "Jin"?</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">c) Who do you think is better?</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">d) Why do you suppose "Still, Jin is probably better." is not printing?</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Note: Go into interactive mode if you are stuck!</span></p>
-<p class="Body">-------------------------------</p>
-<p class="Body"><b><span style="font-size:20pt;font-family:'Andale Mono';">Loops</span></b></p>
-<p class="Body"><a href="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-11-10-32-pm.png"><img class="wp-image-79 aligncenter" src="https://elementopsprogramming.files.wordpress.com/2015/09/screen-shot-2015-09-26-at-11-10-32-pm.png?w=300" alt="Screen Shot 2015-09-26 at 11.10.32 PM" width="529" height="266" /></a></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Let's go through this function together! A variable named "number" is now 1. A variable named "total" is now 0. And after that, we have something called a loop. Loop is a statement that allows for repetition of a certain function. This "sum()" function has a "while loop". </span></p>
-whlie "expression":
-...... "suite"
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">And this is how you read this while loop.</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">"While the condition("Number" is less than or equal to 100) is true, repeat this action in the suite: the new "total" becomes the old "total" plus "number". And the new "number" becomes the old "number" plus 1."</span></p>
-<p class="Body"><span style="font-size:12pt;font-family:'Andale Mono';">Another way of saying that is "keep "incrementing," or adding to, our total by 1, 2, 3, 4 ("number") until "number" reaches 101." The program is essentially adding up all the numbers from 1 to 100 and printing that "total" at the end of the program.</span></p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Project name</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right">
+              <input class="span2" type="text" placeholder="Email">
+              <input class="span2" type="password" placeholder="Password">
+              <button type="submit" class="btn">Sign in</button>
+            </form>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2013</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
