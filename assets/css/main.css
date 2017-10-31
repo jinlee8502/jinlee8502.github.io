@@ -9,6 +9,25 @@
 
 /* Reset */
 
+	.no-style-h1 {
+		font-size: unset !important;
+		font-family: unset !important;
+		font-weight: unset !important;
+		font-style: unset !important;
+		text-transform: unset !important;
+		margin-top: unset !important;
+		margin-bottom: unset !important;
+		font-family: unset !important;
+		line-height: unset !important;
+		color: unset !important;
+		margin: unset !important;
+		display: unset !important;
+		-webkit-margin-before: unset !important;
+		-webkit-margin-after: unset !important;
+		-webkit-margin-start: unset !important;
+		-webkit-margin-end: unset !important;
+	}
+
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
